@@ -10,14 +10,15 @@ Available api
 
 Features:
 
--> User can signup with referral-code and earn point at "http://127.0.0.1:8000/register/" if code is correct
+1) User can signup with referral-code and earn point at "http://127.0.0.1:8000/register/" if code is correct
 {
     "name" : "pradeep",
     "email":"abcd@gmail.com",
     "passwords":"okdear",
     "referred":"ZPwrIBbt"    #valid referal code of user name "a2"
 }
--> view users list  http://127.0.0.1:8000/users/
--> user can see transaction history of users which contain masked email and their respective inscentives at "http://127.0.0.1:8000/history/" 
--> user can see, how many users has used his code to signup, and earned incentives ,at "http://127.0.0.1:8000/referalspec/AzQJtxDR"  #where (AzQJtxDR) is referal code of user Ranaappa
--> an user earn through referring other user
+
+2) view users list  http://127.0.0.1:8000/users/
+3) user can see transaction history of users which contain masked email and their respective inscentives at "http://127.0.0.1:8000/history/" 
+4) user can see, how many users has used his code to signup, and earned incentives ,at "http://127.0.0.1:8000/referalspec/AzQJtxDR"  #where (AzQJtxDR) is referal code of user Ranaappa
+5) an user earn through referring other user
